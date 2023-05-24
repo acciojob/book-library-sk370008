@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+body {
+  background-color: #f8f8f8;
+}
+
+.book-library {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.book {
+  background-color: #f1f1f0;
+  text-align: center;
+}
+
+.book > img {
+  margin: 10px 0px 0px 5px;
+}
+
+.book > p {
+  margin: 5px;
+  text-align: left;
+}
+
+.book > div {
+  background-color: #2ecc71;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+}
